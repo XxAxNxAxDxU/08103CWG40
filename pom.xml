@@ -5,13 +5,16 @@
   <groupId>com.mycompany.app</groupId>
   <artifactId>Test1</artifactId>
   <version>1.0-test</version>
- 
+  <packaging>pom</packaging>
+
   <name>my-app</name>
   <!-- FIXME change it to the project's website -->
   <url>https://github.com/40662282Bart/08103CWG40.git</url>
+  <modules>
+    <module>helloworld</module>
+  </modules>
 
-  
- 
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.release>17</maven.compiler.release>
